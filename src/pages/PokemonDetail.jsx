@@ -35,7 +35,7 @@ const PokemonDetail = () => {
     }
   }, [pokemon]);
   return (
-    <main className="py-10 text-center capitalize items-center justify-center ">
+    <main className="text-center capitalize items-center justify-center ">
       <HeaderPokeball />
       <article className="relative max-w-[500px] mx-auto p-1 items-center justify-center rounded-xl -z-50 bg-gradient-to-r from-red-700 via-yellow-500 to-lime-500">
         <div className="w-[99-5%] h-[99%] p-4 rounded-lg -z-50 bg-gradient-to-r from-red-50 via-emerald-50 to-yellow-50 grid gap-2">
